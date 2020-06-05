@@ -5,17 +5,23 @@ body{
    background-color: black;
    height: 200vh; 
 }
-
-
 img{
     width: 25%;
     height: 25%;
     border-radius: 75% ;
     position: absolute;
-    right: 5%;
-    top:10%;
+    right: 2%;
+
     animation: appear 2s;
     box-shadow: 2px 2px 5px white;
+}
+@media only screen and (min-width: 600px)
+{
+img{
+
+    top:13%;
+  
+}
 }
 @keyframes appear{
     0%{
@@ -91,9 +97,11 @@ img{
      }
      
      img{
+        
         width: 70%;
         height: 70%;
-        right: 15%;
-        top:3%;
+        left:15%
+        
+       
     }
 }
